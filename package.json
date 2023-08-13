@@ -1,0 +1,60 @@
+{
+  "name": "@ah/react-echarts",
+  "version": "0.0.0",
+  "description": "Powerful Visualizations in React",
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite serve dev",
+    "build": "tsup",
+    "lint": "tsc",
+    "prepublishOnly": "pnpm build",
+    "format": "prettier --ignore-path .gitignore -w \"src/**/*.{js,ts,json,css,tsx,jsx}\" \"dev/**/*.{js,ts,json,css,tsx,jsx}\"",
+    "update-deps": "pnpm up -Li",
+    "typecheck": "tsc --noEmit",
+    "ci": "pnpm run lint && pnpm run build",
+    "release": "pnpm run lint && pnpm run build && changeset publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aggarwal-h/react-echarts.git"
+  },
+  "keywords": [
+    "echarts",
+    "react",
+    "svg",
+    "canvas",
+    "webgl",
+    "react-echarts",
+    "echarts-react",
+    "echarts-for-react",
+    "chart",
+    "charts"
+  ],
+  "author": "Himanshu Aggarwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aggarwal-h/react-echarts/issues"
+  },
+  "homepage": "https://github.com/aggarwal-h/react-echarts#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@types/node": "^20.4.10",
+    "@types/react": "^18.2.20",
+    "echarts": "^5.4.3",
+    "react": "^18.2.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9"
+  },
+  "peerDependencies": {
+    "echarts": ">=5.0.0",
+    "react": ">=16.8.0"
+  },
+  "dependencies": {
+    "just-debounce-it": "^3.2.0",
+    "use-resize-observer": "^9.1.0"
+  }
+}
