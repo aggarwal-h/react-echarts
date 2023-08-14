@@ -1,9 +1,10 @@
 {
-  "name": "@ah/react-echarts",
+  "name": "@aggarwal-h/react-echarts",
   "version": "1.0.0",
   "description": "Powerful Visualizations in React",
   "author": "Himanshu Aggarwal",
   "license": "MIT",
+  "type": "module",
   "private": false,
   "sideEffects": false,
   "main": "./dist/index.js",
