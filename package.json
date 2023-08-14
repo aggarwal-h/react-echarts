@@ -2,7 +2,11 @@
   "name": "@ah/react-echarts",
   "version": "0.0.0",
   "description": "Powerful Visualizations in React",
-  "main": "index.js",
+  "author": "Himanshu Aggarwal",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -33,8 +37,6 @@
     "chart",
     "charts"
   ],
-  "author": "Himanshu Aggarwal",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/aggarwal-h/react-echarts/issues"
   },
