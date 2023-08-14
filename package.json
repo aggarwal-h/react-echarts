@@ -4,6 +4,8 @@
   "description": "Powerful Visualizations in React",
   "author": "Himanshu Aggarwal",
   "license": "MIT",
+  "private": false,
+  "sideEffects": false,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
