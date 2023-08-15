@@ -99,7 +99,7 @@ import * as echarts from "echarts/core";
 import useReactECharts from "@aggarwal-h/react-echarts";
 import { 
     LineChart,
-    // ... Import the charts you need
+    // Import the charts you need
  } from "echarts/charts";
 import {
   GridComponent,
@@ -250,7 +250,7 @@ export default App;
 
 ## Contributing
 
-We welcome contributions from the community! If you encounter a bug, have a feature request, or want to enhance this library, please open a pull request.
+Contributions from the community are welcomed! If you encounter a bug, have a feature request, or want to enhance this library, please open a [pull request](https://github.com/aggarwal-h/react-echarts/pulls).
 
 ## License
 
