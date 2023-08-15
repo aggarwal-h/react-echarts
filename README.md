@@ -224,6 +224,30 @@ function App() {
 export default App;
 ```
 
+## Hook Props
+| Name | Type | Description | Requirement
+| ------------- | ------------- | ------------- | ------------- |
+| `echarts`  | Object | The global ECharts object (full or core). | Required |
+| `ref`  | Object | The ref for the chart. | Required |
+| `option`  | Object | The ECharts options object containing the chart's configuration and data. | Required |
+| `theme`  | String | The name of the theme to be applied. | Optional |
+| `opts`  | Object | Optional chart configurations when initializing the chart. | Optional |
+| `onEvents`  | Object | An object mapping the ECharts event name to its callback function. | Optional |
+| `notMerge`  | Boolean | hether or not to merge with the previous option when setting a new option. (`false` by default) | Optional |
+| `lazyUpdate`  | Boolean | Whether or not to update the chart immediately on change. (`false` by default) | Optional |
+| `showLoading`  | Boolean | Whether or not show loading on the chart. (`false` by default) | Optional |
+| `loadingOption`  | Object | The loading configuration. (`null` by default) | Optional |
+| `debouncedResize`  | Boolean | Whether or not to debounce the resize functionality by 250ms. (`false` by default) | Optional |
+
+## Component Props
+**All of the above**, plus:
+
+| Name | Type | Description | Requirement
+| ------------- | ------------- | ------------- | ------------- |
+| `className`  | String | Additional CSS classes to pass down to the chart container. | Optional |
+| `style`  | Object | Inline styles to customize the chart container. | Optional |
+
+
 ## Contributing
 
 We welcome contributions from the community! If you encounter a bug, have a feature request, or want to enhance this library, please open a pull request.
